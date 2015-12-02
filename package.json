@@ -1,5 +1,5 @@
 {
-  "name": "mount_plugins",
+  "name": "mount_plugin",
   "version": "1.0.0",
   "description": "mount plugins = auto mount express plugins with plugins_folder_path",
   "main": "index.js",
