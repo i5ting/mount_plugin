@@ -7,7 +7,7 @@ mount plugins = auto mount express plugins with plugins_folder_path
 
 ## Install
 
-    npm install --save mount-plugins
+    npm install --save mount_plugin
 
 ## Usages
 
@@ -16,7 +16,7 @@ mount plugins = auto mount express plugins with plugins_folder_path
 var express = require('express')
 var app = express()
 
-var mount = require('mount-plugins');
+var mount = require('mount_plugin');
 
 mount(app, 'plugins');
 
