@@ -23,6 +23,19 @@ mount(app, 'plugins');
 mount(app, 'plugins', true);
 ```
 
+
+- app must be an express obj
+- plugins is a folder that contain plugins
+- debug=true
+
+## Plugin Example
+
+```
+module.exports = function(app) {
+  console.log('mount plugins ...');
+}
+```
+
 ## Contributing
 
 1. Fork it
